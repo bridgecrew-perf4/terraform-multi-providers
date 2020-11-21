@@ -2,7 +2,7 @@ variable "aws" {
   type = object({
     access_key = string
     secret_key = string
-    region     = string
+    region     = list(string)
   })
   description = "The AWS credential"
 }
