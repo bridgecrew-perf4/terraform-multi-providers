@@ -35,4 +35,4 @@ jobs:
 
     # Validate the written configuration files
     - name: Terraform Validate
-      run: terrraform validate
+      run: terraform validate
