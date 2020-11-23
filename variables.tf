@@ -4,7 +4,7 @@ variable "aws" {
     secret_key = string
     region     = list(string)
   })
-  description = "The AWS credential"
+  description = "The AWS Credentials"
 }
 
 variable "vpc" {
