@@ -23,7 +23,7 @@ module "vpc" {
   }
 }
 
-## AWS VPC MODULE ##
+## AWS VPC MODULE SINGAPORE ##
 module "vpc-apsoutheast" {
   source  = "terraform-aws-modules/vpc/aws"
   version = "2.64.0"
